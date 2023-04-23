@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>BD sales | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Kaggle is the world&#x2019;s largest data science community with powerful tools and resources to help you achieve your data science goals." />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="LRIgQ4iaUGw5SDErC5Z0bg==" type="text/javascript">
+    window["pageRequestStartTime"] = 1682281151141;
+    window["pageRequestEndTime"] = 1682281151233;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons&display=block"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="LRIgQ4iaUGw5SDErC5Z0bg==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="canonical" href="/datasets/darkovichcycy/bd-sales" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=347bcfc883299a7a24f3" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=503de4ebdb18b3e50918" />
+  
+    
+ 
+      <script nonce="LRIgQ4iaUGw5SDErC5Z0bg==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="LRIgQ4iaUGw5SDErC5Z0bg==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-12629138-1', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+        gtag('config', 'G-T7QHS60L4Q', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="LRIgQ4iaUGw5SDErC5Z0bg==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+
+  
+    
+    <meta property="og:url" content="/datasets/darkovichcycy/bd-sales" />
+    <meta property="og:title" content="BD sales" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-54.png-8440713/dataset-card.png" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="LRIgQ4iaUGw5SDErC5Z0bg==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"BD sales","description":"# Dataset\nThis dataset was created by darkovich cycy\n\n# Contents\n","url":"https://www.kaggle.com/darkovichcycy/bd-sales","version":1,"keywords":[],"license":{"@type":"CreativeWork","name":"Unknown","url":""},"identifier":["1618372"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"darkovich cycy","url":"https://www.kaggle.com/darkovichcycy","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/darkovichcycy/bd-sales/download?datasetVersionNumber=1","contentSize":"2504483 bytes"}],"commentCount":0,"dateModified":"2021-09-29T03:27:09.46Z","discussionUrl":"https://www.kaggle.com/darkovichcycy/bd-sales/discussion","alternateName":"","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-54.png-8440713/dataset-card.png","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":0},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":129},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":897},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":2}]}</script>
+
+
+  
+    
+
+  
+    
+
+
+    <script nonce="LRIgQ4iaUGw5SDErC5Z0bg==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="LRIgQ4iaUGw5SDErC5Z0bg==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="LRIgQ4iaUGw5SDErC5Z0bg==" src="/static/assets/runtime.js?v=c028c7652d90284158d3" data-turbolinks-track="reload"></script>
+  <script nonce="LRIgQ4iaUGw5SDErC5Z0bg==" src="/static/assets/vendor.js?v=9cd25589829dad17d1bd" data-turbolinks-track="reload"></script>
+  <script nonce="LRIgQ4iaUGw5SDErC5Z0bg==" src="/static/assets/app.js?v=cce8c457e8f35196f36a" data-turbolinks-track="reload"></script>
+    <script nonce="LRIgQ4iaUGw5SDErC5Z0bg==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+<div id="site-container"></div>
+
+<div id="site-body" class="hide">
+    
+
+<div data-component-name="DatasetMaterialContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="LRIgQ4iaUGw5SDErC5Z0bg==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"basics":{"datasetId":1618372,"slug":"bd-sales","title":"BD sales","viewCount":897,"downloadCount":129,"owner":{"id":8440713,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","name":"darkovich cycy","profileUrl":"/darkovichcycy","slug":"darkovichcycy"},"license":{"id":4,"name":"Unknown"},"collaboratorList":{"owner":{"userId":8440713,"profileUrl":"/darkovichcycy","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","name":"darkovich cycy","slug":"darkovichcycy","type":"OWNER"}},"coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-54.png-8440713/dataset-cover.png","data":{"totalSize":2504483,"isFileset":true,"canDownload":true,"firestorePath":"PkEdn9t9C9gdayDb1EvO/versions/F4p4INXu6mIzIHNmqkGV","downloadUrl":"/datasets/darkovichcycy/darkovichcycy/download?datasetVersionNumber=1","versionId":2704920,"id":1643962},"voteCount":2,"downloadUrl":"/datasets/darkovichcycy/bd-sales/download?datasetVersionNumber=1","lastUpdateTime":"2021-09-29T03:27:09.460Z","datasetVersionNumber":1,"creatorDisplayName":"darkovich cycy","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-54.png-8440713/dataset-card.png","categories":{},"datasetExternalUrl":"https://www.kaggle.com/datasets/darkovichcycy/bd-sales","forumId":1638900,"datasetVersionId":2660783,"canCreateTasks":true,"moderationStatus":"PRIVATED_MODERATION_STATUS_NO_ABUSE","lastVersionNumber":1,"diffType":"VERSIONED"},"accessedViaHashLink":false});performance && performance.mark && performance.mark("DatasetMaterialContainer.componentCouldBootstrap");</script><script nonce="LRIgQ4iaUGw5SDErC5Z0bg==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: ["Safe.js"],
+    });
+</script>
+<script type="text/javascript" nonce="LRIgQ4iaUGw5SDErC5Z0bg==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
